@@ -33,9 +33,6 @@ export function Contact() {
           description="Have a project in mind or just want to say hi? My inbox is always open."
         />
         <div className="grid lg:grid-cols-5 gap-8 max-w-5xl mx-auto">
-          <div className="lg:col-span-3 glass-card rounded-3xl p-6 bg-secondary/70 border border-border text-sm text-muted-foreground mb-6 lg:mb-0">
-            This contact form is configured for demo purposes only. It demonstrates form interactions and submission feedback, but it does not actually send email.
-          </div>
           <div className="lg:col-span-2 space-y-4">
             {info.map(({ Icon, label, value, href }) => {
               const inner = (
