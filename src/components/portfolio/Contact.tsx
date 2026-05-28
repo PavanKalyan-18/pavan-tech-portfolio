@@ -24,7 +24,7 @@ export function Contact() {
   const info = [
     { Icon: Mail, label: "Email", value: "pavanklyn18@gmail.com", href: "mailto:pavanklyn18@gmail.com" },
     { Icon: MapPin, label: "Location", value: "Whitefield, Bangalore, Karnataka, India", href: undefined },
-    { Icon: Linkedin, label: "LinkedIn", value: "/in/pavankalyan-m-1711b43a5", href: "https://www.linkedin.com/in/pavankalyan-m-1711b43a5/" },
+    { Icon: Linkedin, label: "LinkedIn", value: "https://www.linkedin.com/in/pavan-kalyan-1711b43a5/", href: "https://www.linkedin.com/in/pavankalyan-m-1711b43a5/" },
     { Icon: Github, label: "GitHub", value: "@PavanKalyan-18", href: "https://github.com/PavanKalyan-18" },
   ];
 

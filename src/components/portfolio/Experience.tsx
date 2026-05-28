@@ -4,7 +4,7 @@ import { SectionHeading } from "./SectionHeading";
 const timeline = [
   {
     Icon: Briefcase,
-    tag: "Mar 2025 — Present",
+    tag: "Mar 2025 — Apr 2026",
     title: "Associate Software Engineer",
     org: "Serenus Technologies Solutions Pvt Ltd",
     points: [
@@ -17,7 +17,7 @@ const timeline = [
   {
     Icon: GraduationCap,
     tag: "2019 — 2023",
-    title: "B.E. Computer Science",
+    title: "B.E Computer Science",
     org: "Computer Science Graduate",
     points: [
       "Strong foundation in data structures, algorithms and software engineering.",
