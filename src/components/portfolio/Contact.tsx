@@ -22,10 +22,10 @@ function Field({
 export function Contact() {
   const [sent, setSent] = useState(false);
   const info = [
-    { Icon: Mail, label: "Email", value: "pavan@example.com", href: "mailto:pavan@example.com" },
-    { Icon: MapPin, label: "Location", value: "Bangalore, India", href: undefined },
-    { Icon: Linkedin, label: "LinkedIn", value: "/in/pavan-kalyan", href: "https://linkedin.com" },
-    { Icon: Github, label: "GitHub", value: "@pavankalyan", href: "https://github.com" },
+    { Icon: Mail, label: "Email", value: "pavanklyn18@gmail.com", href: "mailto:pavanklyn18@gmail.com" },
+    { Icon: MapPin, label: "Location", value: "Whitefield, Bangalore, Karnataka, India", href: undefined },
+    { Icon: Linkedin, label: "LinkedIn", value: "/in/pavan-kalyan-1711b43a5", href: "https://www.linkedin.com/in/pavan-kalyan-1711b43a5/" },
+    { Icon: Github, label: "GitHub", value: "@PavanKalyan-18", href: "https://github.com/PavanKalyan-18" },
   ];
 
   return (
