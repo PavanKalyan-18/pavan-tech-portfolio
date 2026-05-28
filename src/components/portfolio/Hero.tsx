@@ -64,7 +64,7 @@ export function Hero() {
             Available for opportunities
           </div>
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] mb-6">
-            Hi, I'm <span className="text-gradient">Pavan Kalyan M</span>
+            Hi, I'm <span className="text-gradient">PavanKalyan M</span>
           </h1>
           <div className="text-xl md:text-2xl font-medium text-muted-foreground mb-6 h-8">
             <span className="cursor-caret">{typed}</span>
@@ -116,7 +116,7 @@ export function Hero() {
             <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-[var(--primary)]/30 glow-primary bg-gradient-hero">
               <img
                 src={heroImg}
-                alt="Pavan Kalyan M"
+                alt="PavanKalyan M"
                 className="w-full h-full object-cover object-center"
               />
             </div>
