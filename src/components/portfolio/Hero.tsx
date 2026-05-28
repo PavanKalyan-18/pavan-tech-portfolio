@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Download, Mail, Github, Linkedin, ArrowRight, Sparkles } from "lucide-react";
-import heroImg from "@/assets/pavan-hero.png";
+import heroImg from "@/assets/pavan-hero.jpg";
 
 const roles = [
   "Associate Software Engineer",
@@ -117,9 +117,7 @@ export function Hero() {
               <img
                 src={heroImg}
                 alt="Pavan Kalyan M"
-                width={896}
-                height={1024}
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover object-center"
               />
             </div>
             {/* floating chips */}
