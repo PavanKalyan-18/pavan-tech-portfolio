@@ -74,7 +74,7 @@ export function Contact() {
               <textarea
                 rows={5}
                 required
-                placeholder="Tell me about your project..."
+                placeholder="Demo only: this form shows submission feedback but does not send an email."
                 className="mt-2 w-full rounded-xl bg-secondary/60 border border-border px-4 py-3 text-sm outline-none focus:border-[var(--accent-blue)] focus:ring-2 focus:ring-[var(--accent-blue)]/20 transition"
               />
             </div>
