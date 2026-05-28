@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "PavanKalyan M — Full Stack Developer & Software Engineer" },
       { name: "description", content: "Portfolio of PavanKalyan M, Associate Software Engineer specializing in React.js, REST APIs, and full-stack web development." },
       { name: "author", content: "PavanKalyan M" },
-      { property: "og:title", content: "PavanKalyan M — Full Stack Developer" },
-      { property: "og:description", content: "Building scalable, user-friendly, modern web applications with React.js and modern web tech." },
+      { property: "og:title", content: "PavanKalyan M — Full Stack Developer & Software Engineer" },
+      { property: "og:description", content: "Portfolio of PavanKalyan M, Associate Software Engineer specializing in React.js, REST APIs, and full-stack web development." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "PavanKalyan M — Full Stack Developer & Software Engineer" },
+      { name: "twitter:description", content: "Portfolio of PavanKalyan M, Associate Software Engineer specializing in React.js, REST APIs, and full-stack web development." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/97c7dc32-fa3a-4fa7-8d62-1f56038259c1" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/97c7dc32-fa3a-4fa7-8d62-1f56038259c1" },
     ],
     links: [
       {
