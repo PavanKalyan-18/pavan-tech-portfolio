@@ -63,7 +63,7 @@ export type ContactInfoItem = {
 
 export const aboutStats: StatItem[] = [
   { value: "1+", label: "Years Experience" },
-  { value: "10+", label: "Projects Built" },
+  { value: "3+", label: "Projects Built" },
   { value: "15+", label: "Technologies" },
   { value: "2023", label: "CS Graduate" },
 ];
