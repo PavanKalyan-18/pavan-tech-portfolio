@@ -11,17 +11,17 @@ const projects = [
     image: ecomImg,
   },
   {
-    title: "React Dashboard",
+    title: "Employee Management System (Full Stack)",
     description:
-      "Admin dashboard concept with React.js, REST API integration, JWT auth, and rich data visualizations.",
-    tags: ["React.js", "REST API", "JWT", "Charts"],
+      "Employee management app with role-based access control. Built REST APIs integrated with a React frontend via Axios, SQLAlchemy ORM with MySQL, and JWT-based authentication. Optimized database queries for faster, more responsive data retrieval.",
+    tags: ["React.js", "REST API", "Axios", "SQLAlchemy", "MySQL", "JWT"],
     image: null,
   },
   {
-    title: "Full Stack Web App",
+    title: "Intranet Page",
     description:
-      "End-to-end full stack project showcasing modern frontend, secure backend, and SQL-based persistence.",
-    tags: ["React.js", "Node", "SQL", "Auth"],
+      "Multilingual intranet built with ReactJS and Redux. Integrated Google Translate API and i18n for real-time translation across languages, added a dark theme and custom routes, and improved UI performance using Context API and React Hooks. Fully responsive across devices.",
+    tags: ["ReactJS", "Redux", "Google Translate API", "i18n", "HTML", "CSS"],
     image: null,
   },
 ];
