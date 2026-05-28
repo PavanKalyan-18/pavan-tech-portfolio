@@ -25,7 +25,7 @@ export function Footer() {
           ))}
         </div>
         <p className="text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Pavan Kalyan M. All rights reserved.
+          © {new Date().getFullYear()} PavanKalyan M. All rights reserved.
         </p>
       </div>
     </footer>

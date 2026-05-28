@@ -43,7 +43,7 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-8 items-start">
           <div className="space-y-5 text-muted-foreground leading-relaxed">
             <p>
-              I'm <span className="text-foreground font-semibold">Pavan Kalyan M</span>, a Computer Science
+              I'm <span className="text-foreground font-semibold">PavanKalyan M</span>, a Computer Science
               graduate from 2023 with around a year of professional experience as an
               Associate Software Engineer. My focus is on building interactive
               interfaces and scalable applications that feel great to use.
