@@ -1,16 +1,5 @@
-import {
-  Code, Layout, Smartphone, Plug, Layers, Palette,
-} from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
-
-const services = [
-  { Icon: Code, title: "Frontend Development", text: "Pixel-perfect, performant interfaces built with modern HTML, CSS and JavaScript." },
-  { Icon: Layout, title: "React.js Applications", text: "Component-driven SPAs with clean architecture, state management and reusable UI." },
-  { Icon: Smartphone, title: "Responsive Design", text: "Layouts that look and feel right on every screen — mobile, tablet and desktop." },
-  { Icon: Plug, title: "REST API Integration", text: "Connecting frontends to backend services with secure, well-structured API calls." },
-  { Icon: Layers, title: "Full Stack Solutions", text: "End-to-end features spanning UI, APIs, auth, and SQL databases." },
-  { Icon: Palette, title: "UI Development", text: "Translating designs into accessible, polished, animated user interfaces." },
-];
+import { services } from "./resumeData";
 
 export function Services() {
   return (

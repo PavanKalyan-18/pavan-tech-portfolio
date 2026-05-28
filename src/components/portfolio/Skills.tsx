@@ -1,34 +1,5 @@
 import { SectionHeading } from "./SectionHeading";
-
-const groups = [
-  {
-    title: "Frontend",
-    items: [
-      { name: "React.js", level: 90 },
-      { name: "JavaScript", level: 88 },
-      { name: "HTML5", level: 95 },
-      { name: "CSS3", level: 90 },
-    ],
-  },
-  {
-    title: "Backend & Database",
-    items: [
-      { name: "REST APIs", level: 85 },
-      { name: "SQL", level: 80 },
-      { name: "Authentication (JWT)", level: 82 },
-      { name: "Backend Integration", level: 78 },
-    ],
-  },
-  {
-    title: "Tools & Concepts",
-    items: [
-      { name: "Git / GitHub", level: 88 },
-      { name: "Responsive Design", level: 92 },
-      { name: "API Integration", level: 85 },
-      { name: "Full Stack Dev", level: 80 },
-    ],
-  },
-];
+import { skillGroups } from "./resumeData";
 
 export function Skills() {
   return (
@@ -40,7 +11,7 @@ export function Skills() {
           description="Tools and technologies I work with to bring ideas to life."
         />
         <div className="grid lg:grid-cols-3 gap-6">
-          {groups.map((g) => (
+          {skillGroups.map((g) => (
             <div key={g.title} className="glass-card rounded-3xl p-7 hover:glow-primary transition-shadow">
               <h3 className="font-display text-lg font-bold mb-6 flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-[var(--accent-cyan)]" />

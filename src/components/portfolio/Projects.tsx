@@ -1,32 +1,6 @@
 import { ExternalLink, Github } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
-import ecomImg from "@/assets/project-ecommerce.jpg";
-import employeeImg from "@/assets/project-employee.jpg";
-import intranetImg from "@/assets/project-intranet.jpg";
-
-const projects = [
-  {
-    title: "E-Commerce Platform",
-    description:
-      "A dynamic e-commerce platform built with Django on the backend and HTML/CSS on the frontend — interactive UI, product management, and order flows.",
-    tags: ["Python", "Django", "HTML", "CSS", "SQL"],
-    image: ecomImg,
-  },
-  {
-    title: "Employee Management System (Full Stack)",
-    description:
-      "Employee management app with role-based access control. Built REST APIs integrated with a React frontend via Axios, SQLAlchemy ORM with MySQL, and JWT-based authentication. Optimized database queries for faster, more responsive data retrieval.",
-    tags: ["React.js", "REST API", "Axios", "SQLAlchemy", "MySQL", "JWT"],
-    image: employeeImg,
-  },
-  {
-    title: "Intranet Page",
-    description:
-      "Multilingual intranet built with ReactJS and Redux. Integrated Google Translate API and i18n for real-time translation across languages, added a dark theme and custom routes, and improved UI performance using Context API and React Hooks. Fully responsive across devices.",
-    tags: ["ReactJS", "Redux", "Google Translate API", "i18n", "HTML", "CSS"],
-    image: intranetImg,
-  },
-];
+import { projects } from "./resumeData";
 
 export function Projects() {
   return (

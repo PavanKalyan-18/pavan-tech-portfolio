@@ -1,30 +1,5 @@
-import { Briefcase, GraduationCap } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
-
-const timeline = [
-  {
-    Icon: Briefcase,
-    tag: "Mar 2025 — Apr 2026",
-    title: "Associate Software Engineer",
-    org: "Serenus Technologies Solutions Pvt Ltd",
-    points: [
-      "Developing responsive frontend applications using React.js.",
-      "Integrating REST APIs and handling authentication with JWT.",
-      "Working with SQL databases for data-driven features.",
-      "Contributing to full-stack web development across services.",
-    ],
-  },
-  {
-    Icon: GraduationCap,
-    tag: "2019 — 2023",
-    title: "B.E Computer Science",
-    org: "Computer Science Graduate",
-    points: [
-      "Strong foundation in data structures, algorithms and software engineering.",
-      "Hands-on projects across web development, databases and systems.",
-    ],
-  },
-];
+import { timeline } from "./resumeData";
 
 export function Experience() {
   return (
