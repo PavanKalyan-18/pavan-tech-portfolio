@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Download, Mail, Github, Linkedin, ArrowRight, Sparkles } from "lucide-react";
-import heroImg from "@/assets/pavan-hero.jpg";
+import heroImg from "@/assets/Photo_Portfolio.jpg";
 
 const roles = [
   "Associate Software Engineer",
