@@ -7,30 +7,33 @@ export function Skills() {
       <div className="container mx-auto px-6">
         <SectionHeading
           eyebrow="Skills"
-          title={<>My <span className="text-gradient">Tech Stack</span></>}
-          description="Tools and technologies I work with to bring ideas to life."
+          title={
+            <>
+              My <span className="text-gradient">Analytics Skills</span>
+            </>
+          }
+          description="Tools and technologies I use to clean, analyze, visualize, and present data."
         />
+
         <div className="grid lg:grid-cols-3 gap-6">
-          {skillGroups.map((g) => (
-            <div key={g.title} className="glass-card rounded-3xl p-7 hover:glow-primary transition-shadow">
+          {skillGroups.map((group) => (
+            <div
+              key={group.title}
+              className="glass-card rounded-3xl p-7 hover:glow-primary transition-shadow"
+            >
               <h3 className="font-display text-lg font-bold mb-6 flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-[var(--accent-cyan)]" />
-                {g.title}
+                {group.title}
               </h3>
-              <div className="space-y-5">
-                {g.items.map((it) => (
-                  <div key={it.name}>
-                    <div className="flex justify-between text-sm mb-1.5">
-                      <span className="font-medium">{it.name}</span>
-                      <span className="text-muted-foreground">{it.level}%</span>
-                    </div>
-                    <div className="h-2 rounded-full bg-secondary overflow-hidden">
-                      <div
-                        className="h-full rounded-full skill-bar-fill transition-all duration-1000"
-                        style={{ width: `${it.level}%` }}
-                      />
-                    </div>
-                  </div>
+
+              <div className="flex flex-wrap gap-3">
+                {group.items.map((skill) => (
+                  <span
+                    key={skill.name}
+                    className="px-4 py-2 rounded-xl bg-secondary/70 border border-border/50 text-sm font-medium hover:border-[var(--accent-cyan)] hover:text-[var(--accent-cyan)] transition-colors"
+                  >
+                    {skill.name}
+                  </span>
                 ))}
               </div>
             </div>

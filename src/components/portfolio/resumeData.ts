@@ -1,21 +1,23 @@
 import {
   Briefcase,
   GraduationCap,
+  Database,
+  BarChart3,
+  FileSpreadsheet,
   Code2,
-  Layout,
-  Smartphone,
-  Plug,
-  Layers,
-  Palette,
+  LineChart,
+  Brain,
   Mail,
   MapPin,
   Github,
   Linkedin,
 } from "lucide-react";
+
 import type { LucideIcon } from "lucide-react";
-import ecomImg from "@/assets/project-ecommerce.jpg";
-import employeeImg from "@/assets/project-employee.jpg";
-import intranetImg from "@/assets/project-intranet.jpg";
+
+import loanImg from "@/assets/project-bank-loan.jpg";
+import libraryImg from "@/assets/project-library.jpg";
+import iplImg from "@/assets/project-ipl.jpg";
 
 export type HighlightItem = {
   Icon: LucideIcon;
@@ -61,147 +63,203 @@ export type ContactInfoItem = {
   href?: string;
 };
 
+
+/* =========================================================
+   ABOUT
+   ========================================================= */
+
 export const aboutStats: StatItem[] = [
-  { value: "1+", label: "Years Experience" },
-  { value: "3+", label: "Projects Built" },
-  { value: "12+", label: "Technologies" },
+  { value: "3", label: "Analytics Projects" },
+  { value: "4+", label: "Core Analytics Tools" },
   { value: "2023", label: "CS Graduate" },
+  { value: "SQL", label: "Database Analysis" },
 ];
 
 export const aboutHighlights: HighlightItem[] = [
   {
-    Icon: GraduationCap,
-    title: "Computer Science Graduate",
-    text: "Class of 2023 — strong foundations in algorithms, systems and modern web development.",
+    Icon: BarChart3,
+    title: "Data Analysis",
+    text: "Analyzing structured datasets to identify trends, patterns, KPIs, and actionable insights.",
   },
   {
-    Icon: Briefcase,
-    title: "Industry Experience",
-    text: "Associate Software Engineer at Serenus Technologies — shipping production React apps.",
+    Icon: Database,
+    title: "SQL & MySQL",
+    text: "Hands-on experience with joins, aggregations, subqueries, CTEs, window functions, and relational data analysis.",
   },
   {
-    Icon: Code2,
-    title: "Full Stack Mindset",
-    text: "Frontend, REST APIs, SQL, authentication — comfortable across the entire stack.",
+    Icon: FileSpreadsheet,
+    title: "Excel & Power Query",
+    text: "Using Advanced Excel, Pivot Tables, Power Query, lookups, charts, and dashboards for data analysis.",
   },
   {
-    Icon: Layers,
-    title: "Continuous Learner",
-    text: "Always exploring new tools, patterns and best practices to ship better software.",
+    Icon: LineChart,
+    title: "Power BI",
+    text: "Building interactive dashboards using Power Query, data modeling, DAX, KPIs, filters, and visualizations.",
   },
 ];
+
+
+/* =========================================================
+   EXPERIENCE / EDUCATION
+   ========================================================= */
 
 export const timeline: TimelineItem[] = [
   {
     Icon: Briefcase,
-    tag: "Mar 2025 — Apr 2026",
-    title: "Associate Software Engineer",
+    tag: "Mar 2025 — Aug 2025",
+    title: "Software Engineer Trainee",
     org: "Serenus Technologies Solutions Pvt Ltd",
     points: [
-      "Developing responsive frontend applications using React.js.",
-      "Integrating REST APIs and handling authentication with JWT.",
-      "Working with SQL databases for data-driven features.",
-      "Contributing to full-stack web development across services.",
+      "Completed structured training covering frontend development, backend fundamentals, databases, REST APIs, and version control.",
+      "Gained hands-on practice with React.js, JavaScript, HTML, CSS, Flask, SQL, REST APIs, Git, and GitHub.",
+      "Built training projects including an Employee Management System and E-commerce application.",
     ],
   },
   {
     Icon: GraduationCap,
     tag: "2019 — 2023",
-    title: "B.E Computer Science",
-    org: "Computer Science Graduate",
+    title: "B.E. Computer Science & Engineering",
+    org: "Rajiv Gandhi Institute of Technology",
     points: [
-      "Strong foundation in data structures, algorithms and software engineering.",
-      "Hands-on projects across web development, databases and systems.",
+      "Bachelor of Engineering in Computer Science and Engineering with a CGPA of 7.5/10.",
+      "Developed foundations in programming, databases, algorithms, software engineering, and computer science.",
     ],
   },
 ];
+
+
+/* =========================================================
+   DATA ANALYTICS SKILLS
+   ========================================================= */
 
 export const skillGroups: SkillGroup[] = [
   {
-    title: "Frontend",
+    title: "Data Analysis",
     items: [
-      { name: "React.js", level: 90 },
-      { name: "JavaScript", level: 88 },
-      { name: "HTML5", level: 95 },
-      { name: "CSS3", level: 90 },
+      { name: "SQL", level: 85 },
+      { name: "Python", level: 82 },
+      { name: "Excel", level: 88 },
+      { name: "Power BI", level: 85 },
     ],
   },
+
   {
-    title: "Backend & Database",
+    title: "Data & BI Tools",
     items: [
-      { name: "REST APIs", level: 85 },
-      { name: "SQL", level: 80 },
-      { name: "Authentication (JWT)", level: 82 },
-      { name: "Backend Integration", level: 78 },
+      { name: "Power Query", level: 85 },
+      { name: "DAX", level: 78 },
+      { name: "Pandas", level: 82 },
+      { name: "NumPy", level: 78 },
     ],
   },
+
   {
-    title: "Tools & Concepts",
+    title: "Visualization & Tools",
     items: [
-      { name: "Git / GitHub", level: 88 },
-      { name: "Responsive Design", level: 92 },
-      { name: "API Integration", level: 85 },
-      { name: "Full Stack Dev", level: 80 },
+      { name: "Data Visualization", level: 85 },
+      { name: "Dashboard Development", level: 85 },
+      { name: "Matplotlib", level: 75 },
+      { name: "MySQL Workbench", level: 82 },
     ],
   },
 ];
+
+
+/* =========================================================
+   SERVICES / WHAT I DO
+   ========================================================= */
 
 export const services: ServiceItem[] = [
   {
+    Icon: Database,
+    title: "SQL Data Analysis",
+    text: "Querying and analyzing relational datasets using joins, aggregations, subqueries, CTEs, and window functions.",
+  },
+
+  {
+    Icon: FileSpreadsheet,
+    title: "Excel Analysis",
+    text: "Cleaning and analyzing data using Advanced Excel, Pivot Tables, Power Query, lookups, charts, and dashboards.",
+  },
+
+  {
     Icon: Code2,
-    title: "Frontend Development",
-    text: "Pixel-perfect, performant interfaces built with modern HTML, CSS and JavaScript.",
+    title: "Python Data Analysis",
+    text: "Using Python, Pandas, NumPy, and Matplotlib for data cleaning, exploration, transformation, and visualization.",
   },
+
   {
-    Icon: Layout,
-    title: "React.js Applications",
-    text: "Component-driven SPAs with clean architecture, state management and reusable UI.",
+    Icon: BarChart3,
+    title: "Power BI Dashboards",
+    text: "Creating interactive Power BI dashboards with data modeling, DAX measures, KPIs, slicers, and business-focused visuals.",
   },
+
   {
-    Icon: Smartphone,
-    title: "Responsive Design",
-    text: "Layouts that look and feel right on every screen — mobile, tablet and desktop.",
+    Icon: LineChart,
+    title: "Data Visualization",
+    text: "Transforming analyzed data into clear visualizations that highlight trends, comparisons, and useful insights.",
   },
+
   {
-    Icon: Plug,
-    title: "REST API Integration",
-    text: "Connecting frontends to backend services with secure, well-structured API calls.",
-  },
-  {
-    Icon: Layers,
-    title: "Full Stack Solutions",
-    text: "End-to-end features spanning UI, APIs, auth, and SQL databases.",
-  },
-  {
-    Icon: Palette,
-    title: "UI Development",
-    text: "Translating designs into accessible, polished, animated user interfaces.",
+    Icon: Brain,
+    title: "Business Insights",
+    text: "Exploring structured datasets to identify patterns, performance indicators, and insights that support data-driven decisions.",
   },
 ];
 
+
+/* =========================================================
+   DATA ANALYTICS PROJECTS
+   ========================================================= */
+
 export const projects: ProjectItem[] = [
   {
-    title: "E-Commerce Platform",
+    title: "Bank Loan Analysis Dashboard",
     description:
-      "A dynamic e-commerce platform built with Django on the backend and HTML/CSS on the frontend — interactive UI, product management, and order flows.",
-    tags: ["Python", "Django", "HTML", "CSS", "SQL"],
-    image: ecomImg,
+      "Interactive Power BI dashboard analyzing bank loan applications, funded and received amounts, average interest rates, loan status, loan purposes, and borrower characteristics. Data was cleaned and transformed using Power Query and analyzed using DAX measures and interactive dashboard visuals.",
+    tags: [
+      "Power BI",
+      "DAX",
+      "Power Query",
+      "Excel",
+      "Data Analysis",
+    ],
+    image: loanImg,
   },
+
   {
-    title: "Employee Management System (Full Stack)",
+    title: "Library Management System",
     description:
-      "Employee management app with role-based access control. Built REST APIs integrated with a React frontend via Axios, SQLAlchemy ORM with MySQL, and JWT-based authentication. Optimized database queries for faster, more responsive data retrieval.",
-    tags: ["React.js", "REST API", "Axios", "SQLAlchemy", "MySQL", "JWT"],
-    image: employeeImg,
+      "MySQL-based relational database project analyzing books, members, issued and returned books, availability, rental pricing, and overdue records. Used joins, GROUP BY, HAVING, aggregate functions, subqueries, and date-based filtering for analysis.",
+    tags: [
+      "SQL",
+      "MySQL",
+      "Joins",
+      "Subqueries",
+      "Data Analysis",
+    ],
+    image: libraryImg ,
   },
+
   {
-    title: "Intranet Page",
+    title: "IPL Cricket Data Analytics",
     description:
-      "Multilingual intranet built with ReactJS and Redux. Integrated Google Translate API and i18n for real-time translation across languages, added a dark theme and custom routes, and improved UI performance using Context API and React Hooks. Fully responsive across devices.",
-    tags: ["ReactJS", "Redux", "Google Translate API", "i18n", "HTML", "CSS"],
-    image: intranetImg,
+      "Python data analysis project using Pandas, NumPy, and Matplotlib to analyze a structured cricket dataset. Explored player runs, strike rates, rankings, season comparisons, grouping, aggregation, filtering, sorting, and data visualization.",
+    tags: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "EDA",
+    ],
+    image: iplImg,
   },
 ];
+
+
+/* =========================================================
+   CONTACT
+   ========================================================= */
 
 export const contactInfo: ContactInfoItem[] = [
   {
@@ -210,17 +268,20 @@ export const contactInfo: ContactInfoItem[] = [
     value: "pavanklyn18@gmail.com",
     href: "mailto:pavanklyn18@gmail.com",
   },
+
   {
     Icon: MapPin,
     label: "Location",
-    value: "Whitefield, Bangalore, Karnataka, India",
+    value: "Bengaluru, Karnataka, India",
   },
+
   {
     Icon: Linkedin,
     label: "LinkedIn",
-    value: "https://www.linkedin.com/in/pavan-kalyan-1711b43a5/",
-    href: "https://www.linkedin.com/in/pavankalyan-m-1711b43a5/",
+    value: "https://www.linkedin.com/in/pavan-kalyan-m-1711b43a5/",
+    href: "https://www.linkedin.com/in/pavan-kalyan-m-1711b43a5/",
   },
+
   {
     Icon: Github,
     label: "GitHub",

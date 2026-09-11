@@ -1,4 +1,3 @@
-import { ExternalLink, Github } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 import { projects } from "./resumeData";
 
@@ -7,10 +6,15 @@ export function Projects() {
     <section id="projects" className="py-24 relative">
       <div className="container mx-auto px-6">
         <SectionHeading
-          eyebrow="Portfolio"
-          title={<>Selected <span className="text-gradient">Projects</span></>}
-          description="A glimpse into the things I've been building and exploring lately."
+          eyebrow="Projects"
+          title={
+            <>
+              Data <span className="text-gradient">Analytics Projects</span>
+            </>
+          }
+          description="Practical projects using SQL, Python, Excel, and Power BI to analyze data and generate meaningful insights."
         />
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((p) => (
             <article
@@ -32,27 +36,24 @@ export function Projects() {
                     Coming soon
                   </div>
                 )}
-                <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end gap-3 p-5">
-                  <a href="#" className="rounded-full bg-primary text-primary-foreground p-2.5 hover:scale-110 transition">
-                    <ExternalLink size={16} />
-                  </a>
-                  <a href="#" className="rounded-full glass-card p-2.5 hover:scale-110 transition">
-                    <Github size={16} />
-                  </a>
-                </div>
               </div>
+
               <div className="p-6">
-                <h3 className="font-display text-lg font-bold mb-2">{p.title}</h3>
+                <h3 className="font-display text-lg font-bold mb-2">
+                  {p.title}
+                </h3>
+
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">
                   {p.description}
                 </p>
+
                 <div className="flex flex-wrap gap-2">
-                  {p.tags.map((t) => (
+                  {p.tags.map((tag) => (
                     <span
-                      key={t}
+                      key={tag}
                       className="text-[11px] font-medium px-2.5 py-1 rounded-full bg-secondary text-secondary-foreground"
                     >
-                      {t}
+                      {tag}
                     </span>
                   ))}
                 </div>
