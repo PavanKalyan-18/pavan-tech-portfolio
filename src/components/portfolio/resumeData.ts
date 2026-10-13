@@ -18,6 +18,7 @@ import type { LucideIcon } from "lucide-react";
 import loanImg from "@/assets/project-bank-loan.jpg";
 import libraryImg from "@/assets/project-library.jpg";
 import iplImg from "@/assets/project-ipl.jpg";
+import ecommerceImg from "@/assets/project-ecommerce.jpg";
 
 export type HighlightItem = {
   Icon: LucideIcon;
@@ -106,13 +107,14 @@ export const aboutHighlights: HighlightItem[] = [
 export const timeline: TimelineItem[] = [
   {
     Icon: Briefcase,
-    tag: "Mar 2025 — Aug 2025",
-    title: "Software Engineer Trainee",
-    org: "Serenus Technologies Solutions Pvt Ltd",
+    tag: "Mar 2026 — Aug 2026",
+    title: "BDreamz Solution Intern",
+    org: "Manufacturing Evaluation and Inventory Management System",
     points: [
-      "Completed structured training covering frontend development, backend fundamentals, databases, REST APIs, and version control.",
-      "Gained hands-on practice with React.js, JavaScript, HTML, CSS, Flask, SQL, REST APIs, Git, and GitHub.",
-      "Built training projects including an Employee Management System and E-commerce application.",
+      "Performed EDA on manufacturing and inventory datasets using Python (Pandas, NumPy) and SQL,      applying standardized analytical methods across 200+ SKUs and reducing manual tracking effort by  30%",
+      "Built ETL pipelines from MongoDB and REST APIs into structured formats, reconciling data across  sources to ensure integrity for BI reporting.",
+      " Applied statistical analysis (trend forecasting, correlation, ABC analysis) to track inventory KPIs — stock turnover and reorder point — across 200+ SKUs",
+      "Built Power BI dashboards translating findings into actionable insights, improving inventory efficiency by 20% and reducing stockouts by 15%.",
     ],
   },
   {
@@ -138,8 +140,9 @@ export const skillGroups: SkillGroup[] = [
     items: [
       { name: "SQL", level: 85 },
       { name: "Python", level: 82 },
-      { name: "Excel", level: 88 },
+      { name: "Advanced Excel", level: 88 },
       { name: "Power BI", level: 85 },
+      { name: "Tableau", level: 85 },
     ],
   },
 
@@ -196,7 +199,7 @@ export const services: ServiceItem[] = [
 
   {
     Icon: LineChart,
-    title: "Data Visualization",
+    title: "Tableau Data Visualization",
     text: "Transforming analyzed data into clear visualizations that highlight trends, comparisons, and useful insights.",
   },
 
@@ -225,6 +228,20 @@ export const projects: ProjectItem[] = [
       "Data Analysis",
     ],
     image: loanImg,
+  },
+
+  {
+    title: "E-Commerce Sales Analytics Dashboard",
+    description:
+      "Cleaned, transformed, and validated e-commerce datasets using Python (Pandas) and Excel to ensure data accuracy and consistency for business analysis. Performed exploratory data analysis (EDA) and advanced SQL to uncover sales trends, customer behavior, product performance, profitability, and key KPIs. Built interactive Tableau and Power BI dashboards with KPI cards, slicers, and drill-through features to visualize sales, profit margins, and regional performance, enabling data-driven business decisions.",
+    tags: [
+      "Python",
+      "Pandas",
+      "SQL",
+      "Tableau",
+      "Power BI",
+    ],
+    image: ecommerceImg,
   },
 
   {

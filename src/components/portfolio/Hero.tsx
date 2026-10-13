@@ -111,7 +111,7 @@ export function Hero() {
           </div>
 
           <p className="text-base md:text-lg text-muted-foreground max-w-xl mb-8 leading-relaxed">
-            Data Analyst Fresher with hands-on experience in SQL,
+            Data Analyst with hands-on experience in SQL,
             Advanced Excel, Python, and Power BI. I analyze, clean,
             transform, and visualize data to identify meaningful
             insights and support data-driven decision-making.
