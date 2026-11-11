@@ -112,7 +112,7 @@ export function Hero() {
 
           <p className="text-base md:text-lg text-muted-foreground max-w-xl mb-8 leading-relaxed">
             Data Analyst with hands-on experience in SQL,
-            Advanced Excel, Python, and Power BI. I analyze, clean,
+            Advanced Excel, Python, Power BI and Tableau. I analyze, clean,
             transform, and visualize data to identify meaningful
             insights and support data-driven decision-making.
           </p>

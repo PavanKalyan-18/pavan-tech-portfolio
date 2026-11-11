@@ -107,9 +107,9 @@ export const aboutHighlights: HighlightItem[] = [
 export const timeline: TimelineItem[] = [
   {
     Icon: Briefcase,
-    tag: "Mar 2026 — Aug 2026",
-    title: "BDreamz Solution Intern",
-    org: "Manufacturing Evaluation and Inventory Management System",
+    tag: "Mar 2025 — Oct 2026",
+    title: "Data Analyst Internship",
+    org: "Besant Technologies, Bangalore, India",
     points: [
       "Performed EDA on manufacturing and inventory datasets using Python (Pandas, NumPy) and SQL,      applying standardized analytical methods across 200+ SKUs and reducing manual tracking effort by  30%",
       "Built ETL pipelines from MongoDB and REST APIs into structured formats, reconciling data across  sources to ensure integrity for BI reporting.",
@@ -118,8 +118,20 @@ export const timeline: TimelineItem[] = [
     ],
   },
   {
+    Icon: Briefcase,
+    tag: "Sep 2023 — March 2025",
+    title: "Software Development Training & Trainee Experience",
+    org: "Sharpner & Serenus Technologies Solutions Pvt Ltd",
+    points: [
+      "Completed six months of structured Full Stack Development training, building foundational knowledge of frontend development, backend technologies, and database management.",
+      "Continued technical development as a Software Engineer Trainee, gaining exposure to application development, programming fundamentals, debugging, and software development practices.",
+      "Worked with web technologies and databases to strengthen understanding of application architecture, coding practices, and end-to-end development workflows",
+      "Developed technical problem-solving, analytical thinking, and database skills that provide a foundation for transitioning into Data Analytics.",
+    ],
+  },
+  {
     Icon: GraduationCap,
-    tag: "2019 — 2023",
+    tag: "Aug 2019 — July 2023",
     title: "B.E. Computer Science & Engineering",
     org: "Rajiv Gandhi Institute of Technology",
     points: [
@@ -143,6 +155,7 @@ export const skillGroups: SkillGroup[] = [
       { name: "Advanced Excel", level: 88 },
       { name: "Power BI", level: 85 },
       { name: "Tableau", level: 85 },
+      { name: "Statistics", level: 80 }
     ],
   },
 
@@ -163,6 +176,7 @@ export const skillGroups: SkillGroup[] = [
       { name: "Dashboard Development", level: 85 },
       { name: "Matplotlib", level: 75 },
       { name: "MySQL Workbench", level: 82 },
+      { name: "Git & GitHub", level: 80 },
     ],
   },
 ];
